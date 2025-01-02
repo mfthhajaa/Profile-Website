@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Hi, I'm Miftahul Rizky</h1>
+            <h2>Professional in the field of Information Technology (IT)</h2>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <button class="button" data-text="Awesome">
+                <span class="actual-text">&nbsp;About&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;About&nbsp;</span>
+            </button>
+            <a href="https://www.instagram.com/mfthajaa/" target="_blank" rel="noopener noreferrer">Hire Me</a>
+        </div>
+
+        <div class="card">
+            <img src="DSCF4295.JPG">
+            <div class="info">
+                <h1>It's Programmer</h1>
+                <p> Hello, introduce my name is Miftahul Rizky
+              often called Miftah. I am a web developer using
+              technology from Html, Css and JavaScript. For now, I am a graduate of
+              a vocational high school with a major in Multimedia graduating in 2025. I have had many achievements
+              and awards while I was at school
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+        <button class="button" data-text="Awesome">
+            <span class="actual-text">&nbsp;Skills&nbsp;</span>
+            <span aria-hidden="true" class="hover-text">&nbsp;Skills&nbsp;</span>
+        </button>
+        <a href="https://github.com/mfthhajaa" target="_blank" rel="noopener noreferrer">See More</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-file-html'></i>
+                    <h1>Html</h1>
+                    <p>
+                        My expertise in HTML includes creating web page structures using basic elements such as html, head, and body, as well as using semantic elements to improve accessibility and SEO. I also have experience in creating interactive forms using tags such as form, input, and button. Additionally, I have become accustomed to creating responsive content with meta tags to ensure optimal display on various devices
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-file-css' ></i>
+
+                    <h1>Css</h1>
+                    <p>
+                        I have expertise in CSS which includes various techniques for designing and styling web pages. I mastered using CSS selectors like ID, class, and element to target the right HTML elements. For example, I can use the .button selector to change the appearance of all buttons, or #main-header to style a custom header section.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-file-js'></i>
+                    <h1>Java Script</h1>
+                    <p>
+                        My skills in JavaScript include a basic understanding of syntax such as using variables with let and const, as well as data types and basic operations. I'm also familiar with flow control using if, else, and various types of loops like for and while.I'm very familiar with DOM manipulation, where I can access web page elements with getElementById and querySelector.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+    <script>
+        function showNotification() {
+            const today = new Date();
+            const hour = today.getHours();
+            let greetingMessage;
+
+            // Menentukan sapaan berdasarkan waktu
+            if (hour < 12) {
+                greetingMessage = "Selamat Pagi! 😊";
+            } else if (hour < 18) {
+                greetingMessage = "Selamat Sore! 😊";
+            } else {
+                greetingMessage = "Selamat Malam! 😊";
+            }
+
+            // Menampilkan pesan dengan sapaan sesuai waktu
+            alert(greetingMessage + " Terima kasih telah mengunjungi personal profile saya!");
+        }
+    
+        window.onload = showNotification;
+    </script>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>M1ftPr0g</h3>
+                <p>Creative website developer with a passion for creating elegant solutions to complex problems.</p>
+            </div>
+    
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-social">
+                <h4>Follow Me</h4>
+                <div class="social-icons">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="https://www.instagram.com/yourprofile/" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe to stay updated with the latest trends and projects.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class='bx bx-send'></i></button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 M1ftPr0g. All Rights Reserved. | Designed with ❤️</p>
+        </div>
+    </footer>
+    
+    <style>
+        footer {
+            background:#192161;
+            color: #fff;
+            padding: 3rem 1rem 1rem;
+            font-family: 'Poppins', sans-serif;
+        }
+    
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    
+        .footer-container div {
+            text-align: center;
+        }
+    
+        .footer-about h3,
+        .footer-links h4,
+        .footer-social h4,
+        .footer-newsletter h4 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+    
+        .footer-about p {
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+    
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .footer-links ul li {
+            margin: 0.5rem 0;
+        }
+    
+        .footer-links ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+    
+        .footer-links ul li a:hover {
+            color: #4b4d60;
+        }
+    
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+    
+        .social-icons a {
+            color: #fff;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+    
+        .social-icons a:hover {
+            color: #4b4d60;
+        }
+    
+        .footer-newsletter p {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+    
+        .footer-newsletter form {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+    
+        .footer-newsletter input {
+            padding: 0.5rem;
+            font-size: 0.9rem;
+            border: none;
+            border-radius: 5px;
+            flex: 1;
+            max-width: 250px;
+        }
+    
+        .footer-newsletter button {
+            padding: 0.5rem 1rem;
+            background: #ffffff;
+            color: #192161;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+    
+        .footer-newsletter button:hover {
+            background: #4b4d60;
+        }
+    
+        .footer-bottom {
+            text-align: center;
+            margin-top: 2rem;
+            border-top: 1px solid #444;
+            padding-top: 1rem;
+        }
+    
+        .footer-bottom p {
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+    </style>
+    
+</body>
+
+</html>
